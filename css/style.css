@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+body{
+    background: rgb(237, 140, 36);
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.use {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border: 1px solid black;
+    padding: 20px;
+    background: pink;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.use input {
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+}
+
+.use label {
+    margin-bottom:5px;
+    
+}
+
+.use button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: red;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.use button:hover{
+    background:rgb(0, 183, 255);
+
+}
+
+.use div {
+    width: 100%;    
+}
+
+.haveuser a {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+    margin-top: 4px;
+}
+
+.haveuser a:hover{
+    text-decoration: underline;
+}
+
+.haveuser{
+    margin-top: 10px;
+}
+
+
+/* navbar */
+
+.navbar { 
+    left: 0;
+    top: 0;
+    right:0;
+
+}
+
+.navbar-container{
+    background: rgb(219, 35, 35, 0.922);
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(44, 29, 29);
+    transition: 0.5s;
+}
+
+.menu li a:hover{
+    color: aqua;
+}
